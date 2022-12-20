@@ -165,7 +165,7 @@ local script = G2L["a"];
 	while task.wait(1) do
 		gui.Text = string.format(format, frames)
 	
-		frames = 0
+		frames = -1
 	end
 end;
 task.spawn(C_a);
